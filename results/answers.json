@@ -1,0 +1,242 @@
+[
+ {
+  "qid": "KW12",
+  "category": "keyword_trap",
+  "query": "Once we finished exchanging goods, can we take the trade back?",
+  "gold_chunks": [
+   170
+  ],
+  "base_top3": [
+   38,
+   46,
+   161
+  ],
+  "rerank_top3": [
+   170,
+   161,
+   162
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "The provided excerpts do not cover this.",
+  "answer2": "No, the transaction cannot be undone. Once players agree on the terms and exchange the components, the trade cannot be taken back [Chunk 170].",
+  "llm_s1": 1.9460081850120332,
+  "llm_s2": 2.9567800049844664
+ },
+ {
+  "qid": "KW14",
+  "category": "keyword_trap",
+  "query": "Can I give my commodities to a neighbor for free without getting anything back?",
+  "gold_chunks": [
+   170
+  ],
+  "base_top3": [
+   46,
+   38,
+   37
+  ],
+  "rerank_top3": [
+   170,
+   171,
+   203
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "Players can trade commodities with other players by following the rules for transactions [Chunk 38]. When a player receives a commodity from another player, it is converted into a trade good on their command sheet [Chunk 38]. However, the provided excerpts do not contain the specific rules for transactions to state whether a trade requires receiving something in return.\n\nThe provided excerpts do not cover this.",
+  "answer2": "Yes, you can give your commodities to a neighbor without receiving anything in return. Rule 83.4 states that a transaction does not have to be even, and a player may give components without receiving something in return [Chunk 170].",
+  "llm_s1": 1.7876731700089294,
+  "llm_s2": 3.0411925470107235
+ },
+ {
+  "qid": "KW15",
+  "category": "keyword_trap",
+  "query": "Can I swap action cards with my neighbor?",
+  "gold_chunks": [
+   170
+  ],
+  "base_top3": [
+   10,
+   12,
+   216
+  ],
+  "rerank_top3": [
+   170,
+   51,
+   208
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "The provided excerpts do not cover this.",
+  "answer2": "No, players cannot exchange action cards during a transaction. The rules specify that players can only exchange commodities, trade goods, and promissory notes, and cannot exchange other types of cards or tokens unless they are playing as The Emirates of Hacan [Chunk 170].\n\nSources: [Chunk 170]",
+  "llm_s1": 5.673802211997099,
+  "llm_s2": 1.87771985901054
+ },
+ {
+  "qid": "KW18",
+  "category": "keyword_trap",
+  "query": "Is there a limit to how much I can trade with one neighbor on my turn?",
+  "gold_chunks": [
+   170
+  ],
+  "base_top3": [
+   93,
+   171,
+   46
+  ],
+  "rerank_top3": [
+   170,
+   118,
+   171
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "The provided excerpts do not cover this.",
+  "answer2": "Yes, during your turn, you may resolve up to one transaction with each of your neighbors [Chunk 170]. In that single transaction, you can trade any number of trade goods and commodities, but you are limited to trading a maximum of one promissory note from your hand [Chunk 170, Chunk 118].",
+  "llm_s1": 1.4171427840192337,
+  "llm_s2": 1.70542658798513
+ },
+ {
+  "qid": "EX11",
+  "category": "exception",
+  "query": "I'm the active player. Am I allowed to trade with my neighbor in the middle of a space combat?",
+  "gold_chunks": [
+   170
+  ],
+  "base_top3": [
+   52,
+   101,
+   166
+  ],
+  "rerank_top3": [
+   170,
+   52,
+   215
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "The provided excerpts do not cover this.",
+  "answer2": "Yes, as the active player, you are allowed to resolve a transaction at any time during your turn, including during a combat [Chunk 170]. During your turn, you may resolve up to one transaction with each of your neighbors [Chunk 170].",
+  "llm_s1": 4.950083481002366,
+  "llm_s2": 2.4968568150070496
+ },
+ {
+  "qid": "EX27",
+  "category": "exception",
+  "query": "I meet the requirement on a public objective card. Is there any situation where I still can't score it?",
+  "gold_chunks": [
+   91
+  ],
+  "base_top3": [
+   95,
+   94,
+   90
+  ],
+  "rerank_top3": [
+   95,
+   134,
+   91
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "Yes, there are several situations where you still cannot score it. You cannot score it if you have already scored that specific objective previously in the game [Chunk 95]. Additionally, you are limited by timing and phase constraints: you can only score a maximum of one public objective during each status phase, you must fulfill the requirement during the \"Score Objectives\" step if scoring in the status phase, and you must pay any specified costs (such as spending resources, influence, or tokens) required by the card at the indicated time [Chunk 90, Chunk 95].",
+  "answer2": "Yes, a player cannot score a public objective if they do not control each planet in their home system [Chunk 91]. Additionally, a player cannot score it if they have already scored that specific objective previously during the game, or if they have already reached the maximum limit of one public objective during that status phase [Chunk 95].",
+  "llm_s1": 2.129189019993646,
+  "llm_s2": 1.753741688997252
+ },
+ {
+  "qid": "NG11",
+  "category": "negation",
+  "query": "The defender announced a retreat this round. Am I as the attacker still allowed to announce one?",
+  "gold_chunks": [
+   132
+  ],
+  "base_top3": [
+   208,
+   52,
+   129
+  ],
+  "rerank_top3": [
+   132,
+   128,
+   129
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "The provided excerpts do not cover this.",
+  "answer2": "No, you are not allowed to announce a retreat. If the defender announces a retreat during the \"Announce Retreats\" step, the attacker cannot announce a retreat during that combat round [Chunk 132].",
+  "llm_s1": 1.4105651080026291,
+  "llm_s2": 2.017040820996044
+ },
+ {
+  "qid": "NG14",
+  "category": "negation",
+  "query": "Can sustain damage save a ship from an effect that directly destroys it?",
+  "gold_chunks": [
+   153
+  ],
+  "base_top3": [
+   192,
+   152,
+   60
+  ],
+  "rerank_top3": [
+   153,
+   192,
+   60
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "Based on the provided excerpts, the \"Sustain Damage\" ability is specifically used immediately before assigning hits to cancel a hit produced by another player's units [Chunk 152]. When a unit is destroyed directly, the player is choosing or causing the unit to be removed rather than applying a preventable hit [Chunk 60]. Therefore, the excerpts indicate that \"Sustain Damage\" cancels hits, but they do not state that it can save a ship from an effect that directly destroys it [Chunk 60, Chunk 152].",
+  "answer2": "No, the \"Sustain Damage\" ability cannot be used to save a unit from being directly destroyed. According to the rules, the ability cannot be used to cancel an effect that directly destroys a unit [Chunk 153].",
+  "llm_s1": 2.1350008599983994,
+  "llm_s2": 2.635544574994128
+ },
+ {
+  "qid": "BR07",
+  "category": "buried",
+  "query": "The Ghosts of Creuss player was knocked out. Do their wormholes leave the board?",
+  "gold_chunks": [
+   58
+  ],
+  "base_top3": [
+   222,
+   174,
+   211
+  ],
+  "rerank_top3": [
+   58,
+   222,
+   211
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "The provided excerpts do not cover this.",
+  "answer2": "No, their wormhole tokens do not leave the board. If the Ghost of Creuss player becomes eliminated, their wormhole tokens remain on the game board for the remainder of the game [Chunk 58].",
+  "llm_s1": 1.5078019270149525,
+  "llm_s2": 5.638153242995031
+ },
+ {
+  "qid": "BR08",
+  "category": "buried",
+  "query": "When I take over a planet, can I use its resources right away in the same turn?",
+  "gold_chunks": [
+   53
+  ],
+  "base_top3": [
+   115,
+   97,
+   67
+  ],
+  "rerank_top3": [
+   115,
+   53,
+   103
+  ],
+  "gold_in_ctx_1": false,
+  "gold_in_ctx_2": true,
+  "answer1": "The provided excerpts do not cover this.",
+  "answer2": "When a player gains control of a planet, they take its corresponding planet card and place it in their play area exhausted [Chunk 53]. Because a player spends a planet's resources by exhausting its card, an exhausted planet card cannot be spent right away [Chunk 115]. Therefore, you cannot use a planet's resources in the same turn you take it over [Chunk 53, Chunk 115].",
+  "llm_s1": 2.3391006969904993,
+  "llm_s2": 2.5370671169948764
+ }
+]

@@ -1,0 +1,6 @@
+setting,ms,seconds
+bi-encoder top-10 search over 225 chunks,7.992746647505555,0.008
+cross-encoder on top-10 only,192.50629189773463,0.193
+cross-encoder on ALL 225 chunks,4422.7524083980825,4.423
+"cross-encoder on 10,000 chunks (extrapolated)",196566.77370658144,196.567
+"cross-encoder on 1,000,000 chunks (extrapolated)",19656677.370658144,19656.677
