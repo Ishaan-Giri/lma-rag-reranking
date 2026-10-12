@@ -1,0 +1,12 @@
+# secrets / local environment
+.env
+.env.example
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+chroma_db/
+
+# not part of the submission
+data/
+REPORT_NOTES.md
+RAG_LMA_Assignment_v1.pdf
