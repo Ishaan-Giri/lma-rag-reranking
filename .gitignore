@@ -9,4 +9,5 @@ chroma_db/
 # not part of the submission
 data/
 REPORT_NOTES.md
+.tools/
 RAG_LMA_Assignment_v1.pdf
