@@ -11,3 +11,13 @@ data/
 REPORT_NOTES.md
 .tools/
 RAG_LMA_Assignment_v1.pdf
+
+# LaTeX source and build files (only report.pdf is committed)
+*.tex
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
