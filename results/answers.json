@@ -238,5 +238,31 @@
   "answer2": "When a player gains control of a planet, they take its corresponding planet card and place it in their play area exhausted [Chunk 53]. Because a player spends a planet's resources by exhausting its card, an exhausted planet card cannot be spent right away [Chunk 115]. Therefore, you cannot use a planet's resources in the same turn you take it over [Chunk 53, Chunk 115].",
   "llm_s1": 2.3391006969904993,
   "llm_s2": 2.5370671169948764
+ },
+ {
+  "qid": "NG09",
+  "category": "negation",
+  "query": "Can I spend trade goods to get extra votes on an agenda?",
+  "gold_chunks": [
+   23,
+   79,
+   161
+  ],
+  "base_top3": [
+   161,
+   23,
+   189
+  ],
+  "rerank_top3": [
+   189,
+   161,
+   79
+  ],
+  "gold_in_ctx_1": true,
+  "gold_in_ctx_2": true,
+  "answer1": "Generally, players cannot spend trade goods to cast votes during the agenda phase [Chunk 161, Chunk 23]. However, if a player uses the specific action card \"Bribery,\" they may spend trade goods after the speaker votes to cast 1 additional vote for each trade good spent [Chunk 189].",
+  "answer2": "Normally, trade goods cannot be spent to cast votes during the agenda phase [Chunk 161, Chunk 79]. However, if you play the action card \"Bribery\" after the speaker votes on an agenda, you may spend any number of trade goods to cast 1 additional vote for your chosen outcome per trade good spent [Chunk 189].",
+  "llm_s1": 3.710205818999384,
+  "llm_s2": 6.362560204001056
  }
 ]

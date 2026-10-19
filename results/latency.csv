@@ -1,4 +1,4 @@
 stage,n,mean_ms,std_ms,p50_ms,p95_ms
-retrieval: embed query + top-10 search,1540,8.6,1.32,8.24,10.74
-re-rank: cross-encoder on 10 pairs,1540,207.33,23.49,201.77,248.1
-LLM generation (Gemini API),20,2597.79,1275.1,2132.09,5639.94
+retrieval: embed query + top-10 search,1540,8.26,2.31,7.96,9.66
+re-rank: cross-encoder on 10 pairs,1540,214.54,21.93,210.86,250.54
+LLM generation (Gemini API),22,2819.48,1459.25,2237.05,5672.02

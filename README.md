@@ -5,7 +5,7 @@ Two retrieval pipelines over the same chunked rulebook:
 - **Pipeline 1 (baseline):** a bi-encoder (`sentence-transformers/all-MiniLM-L6-v2`) indexes chunks in ChromaDB. The top 10 are retrieved by cosine similarity, and the top 3 go to the LLM.
 - **Pipeline 2 (re-ranking):** the same top 10 are re-scored by a cross-encoder (`cross-encoder/ms-marco-MiniLM-L-6-v2`), and the re-ranked top 3 go to the LLM with the identical prompt.
 
-The LLM is Google Gemini (`gemini-3.5-flash`, temperature 0, thinking disabled).
+The LLM is Google Gemini, requested as `gemini-3.5-flash` with temperature 0 and thinking disabled. The API reports these requests as served by `gemini-3.6-flash`.
 
 **Document:** *Twilight Imperium: Fourth Edition, Living Rules Reference v1.3* (Fantasy Flight Games, 38 pages).
 

@@ -53,7 +53,7 @@ NG05,negation,What items are players not allowed to exchange in a transaction?,[
 NG06,negation,Can my carrier pick up fighters from a system that already has one of my command tokens?,[166],3,1,hit in both,#3 → #1,"[68, 41, 166]","[166, 35, 16]"
 NG07,negation,Is a player prohibited from scoring a secret objective that another player revealed?,[91],1,1,hit in both,#1 → #1,"[91, 100, 94]","[91, 100, 134]"
 NG08,negation,Can my ships fly through a system that contains another player's ships?,[82],1,1,hit in both,#1 → #1,"[82, 172, 120]","[82, 32, 128]"
-NG09,negation,Can I spend trade goods to get extra votes on an agenda?,"[23, 161]",1,2,hit in both,#1 → #2,"[161, 23, 189]","[189, 161, 79]"
+NG09,negation,Can I spend trade goods to get extra votes on an agenda?,"[23, 79, 161]",1,2,hit in both,#1 → #2,"[161, 23, 189]","[189, 161, 79]"
 NG10,negation,Can I split my votes between two different outcomes of the same agenda?,[15],1,1,hit in both,#1 → #1,"[15, 14, 24]","[15, 18, 24]"
 NG11,negation,The defender announced a retreat this round. Am I as the attacker still allowed to announce one?,[132],7,1,FIXED by re-ranking,#7 → #1,"[208, 52, 129]","[132, 128, 129]"
 NG12,negation,Can a binding deal include a promise to play an action card later?,[51],1,1,hit in both,#1 → #1,"[51, 11, 10]","[51, 11, 10]"
